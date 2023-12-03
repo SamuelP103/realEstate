@@ -1,6 +1,6 @@
 .site-init{
     height: 240px;
-    background-image: url("/img/header.jpg");
+    background-image: url("../img/header.jpg");
     background-size: 100%;
     background-position: center-top;
     background-attachment: fixed;
