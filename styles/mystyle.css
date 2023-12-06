@@ -1,3 +1,10 @@
+/*  will affect all *{
+    margin: 0;
+    padding: 0;
+}*/ 
+*{
+    line-height: 1.5;
+}
 .site-init{
     height: 240px;
     background-image: url("../img/header.jpg");
@@ -15,4 +22,42 @@
 }
 body{
     margin: 0;
+    /* change*/
+    font-family: 'Cormorant Garamond', serif;
+}
+.container{
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.bar{
+    display: flex;
+    justify-content: space-around;
+    height: 100px;
+    align-items: center;
+}
+.pflex {
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    margin-top: 40px;
+    padding: 10px;
+}
+.more-about-item{
+    margin-left: 30px;
+}
+.more-about-item img {
+display: block;
+margin-left: auto;
+margin-right: auto;
+margin-bottom: 30px;
+}
+.more-about-item h3{
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.house-img{
+    width: 300px;
+
 }
