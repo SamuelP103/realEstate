@@ -57,7 +57,89 @@ margin-bottom: 30px;
     text-transform: uppercase;
     margin-bottom: 10px;
 }
-.house-img{
-    width: 300px;
+#housephotos{
+    width: 270px;
+    height: 220px;
 
 }
+.containerB{
+    width:350px;
+    margin-left: 10px;
+    margin-right: auto;
+    border: 0.5px solid rgba(27, 27, 27, 0.239);
+    background-color: rgba(211, 211, 211, 0.409);
+    color: rgba(45, 45, 45, 0.936);
+    height: 450px;
+
+}
+.flex-container{
+    display: flex;
+}
+.pflexBottom {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px;
+    padding: 10px;
+    width: 200px;
+    height: 450px;
+    text-align: left;
+    margin-bottom: 80px;
+    margin-left: 100px;
+
+}
+.ulFlex li img {
+    width: 70%;
+
+    padding: 10px;
+    margin-top: 10px;
+}
+.ulFlex li{
+    padding: 25px;
+}
+.ulFlex{
+    display: flex;
+    flex-direction: row;
+    padding-right: 0px;
+    padding-left: 0px;
+    margin-right: 20px;
+}
+.containerB li {
+    display: flex;
+    flex-direction: row;
+    padding-right: 0px;
+    padding-left: 7px;
+}
+.containerB li p{
+line-height: -0;
+margin-left: -18px;
+margin-bottom: -15px;
+}
+#hAndP{
+    margin-top: 50px;
+    margin-left: 120px;
+    font-size: 30px;
+    margin-bottom: -50px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+}
+.cost {
+    text-align: left;
+    color: rgb(21, 175, 0);
+    margin-top: -10px;
+    margin-bottom: -10px;
+}
+.houses-item-text #luxuryHouseP {
+    margin-top: -20px;
+}
+.houses-item-text h2 {
+    font-size: 18px;
+    color: black;
+    font-weight: 900;
+    padding-bottom: 15px;
+    padding-left: 20px;
+}
+.containerB luxuryHouseP, p {
+padding-left: 20px;
+font-size: 13px;
+}
+
