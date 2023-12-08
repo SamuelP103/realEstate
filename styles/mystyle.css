@@ -152,7 +152,7 @@ font-size: 13px;
     margin-top: -15px;
     border-radius: 0%;
 }
-footer{
+.footerb{
     background-color: rgba(109, 109, 109, 0.4);
 
     margin-top: 300px;
@@ -172,3 +172,67 @@ header a {
     font-weight: 400;
     margin-bottom: -30px;
 }
+footer{
+    height: 260px;
+    background-image: url("../img/encuentra.jpg");
+    background-size: 100%;
+    background-position: center-top;
+    background-attachment: fixed;
+    text-align: center;
+    color: whitesmoke;
+    margin-top: 50px;
+}
+footer p{
+    width: 75%;
+    margin-left: 8.5%;
+}
+#details2{
+    margin-left: 10%;
+    width: 75%;
+}
+#fakeHeader1{
+    font-size: 40px;
+}
+#fakeHeader2{
+    font-size: 15px;
+}
+.header2,
+.header2 a{
+    
+    background-color: #222222;
+    color: whitesmoke;
+}
+.fieldbox{
+    border: 1px solid black;
+    padding: 10px;
+}
+fieldset{
+    padding: 10px;
+}
+legend{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+}
+.input-container{
+    padding: 10px;
+}
+.input-container label{
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    width: 100px;
+    display: inline-block;
+
+
+}
+.input-container input,
+.input-container textarea {
+    background-color: lightgray;
+    border: none;
+    padding: 5px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    width: 70%;
+}
+
+/* will need display flex in phone in email*/
