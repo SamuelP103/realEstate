@@ -23,26 +23,81 @@
         </div>
     </header>
     <main class="container">
-        <h2>Contact</h2>
-        <p>Fill the next information</p>
+        <h2 id="contactTitle1">Contact</h2>
+        <p id="contactTitle2">Fill the next information</p>
 
             <fieldset class="input-container">
                 <legend>Personal information</legend>
                 <div>
-                    <label>Name:</label>
+                    <label>Name:</label><br>
                     <input type="text" placeholder="Add text here">
                 </div>
                 <div>
-                    <label>Email:</label>
+                    <label>Email:</label><br>
                     <input type="text" placeholder="Add text here">
                 </div>
                 <div>
-                    <label>Phone number:</label>
+                    <p id="phoneNumber">Phone number:</p><br>
                     <input type="text" placeholder="Add text here">
                 </div>
+                <label>Message:</label><br>
                 <textarea cols="30" rows="10" placeholder="Add text here"></textarea>
             </fieldset>
         </div>
+    </main>
+    <main class="container">
+
+            <fieldset class="input-container">
+                <legend>Personal information</legend>
+                <div>
+                    <label>Type:</label><br>
+                        <select title="select" id="selectMenu">
+                            <option>--Select an option--</option>
+                            <option>Condo</option>
+                            <option>Duplex</option>
+                            <option>Single Family Home</option>
+                        </select>
+                </div>
+                <div>
+                    <label>Number:</label><br>
+                    <input type="text" placeholder="Add text here">
+                </div>
+            </fieldset>
+        </div>
+    </main>
+    <main class="container">
+
+            <fieldset class="input-container">
+                <legend>Contact Information</legend>
+                <div class="bulletFlex">
+                    <div>
+                        <label for="Phone">&nbsp;&nbsp;Phone:</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Phone">
+                    </div>
+                    <div>
+                        <label for="Email">&nbsp;&nbsp;&nbsp;Email:</label>
+                    </div>
+                    <div>
+                        <input type="radio" id="Email">
+                    </div>
+                </div>
+                <div id="contact">
+                    <p>If you would like to be contacted by phone select and date and time.</p>
+                </div>
+                <div>
+                    <label>Date:</label><br>
+                    <input type="date" placeholder="Add text here">
+                </div>
+                <div>
+                    <label>Hour:</label><br>
+                    <input type="time" placeholder="Add text here">
+                </div>
+            </fieldset>
+        </div>
+        <br>
+        <button class="button">Send</button>
     </main>
     
 </body>
