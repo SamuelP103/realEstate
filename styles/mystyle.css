@@ -253,7 +253,16 @@ footer p{
     
     background-color: #222222;
     color: whitesmoke;
+    text-decoration: none;
+
 }
+@media(max-width:768px) {
+    .header2{
+        height: 150px;
+    }
+    
+}
+
 fieldset{
     padding: 10px;
 }
@@ -333,3 +342,4 @@ legend{
 /* netlyfy */
 /* add navigation */
 /* sizing for all pages */
+/* create about and blog */
