@@ -15,10 +15,38 @@
     text-align: center;
     color: whitesmoke;
     padding-top: 7px;
-
+}
+.site-init2{
+    height: 280px;
+    background-image: url("../img/highlight2.jpg");
+    background-size: 100%;
+    background-position: center-top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 7px;
+}
+.site-init3{
+    height: 240px;
+    background-image: url("../img/destacada3.jpg");
+    background-size: 100%;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 7px;
 }
 .site-init nav a{
     color: whitesmoke;
+    text-decoration: none;
+}
+.site-init2 nav a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+}
+.site-init3 nav a{
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 main{
@@ -219,7 +247,7 @@ header a {
     font-weight: 400;
     margin-bottom: -30px;
 }
-footer{
+.footer1{
     background-image: url("../img/encuentra.jpg");
     background-size: cover;
     background-position: right;
@@ -258,6 +286,7 @@ footer p{
 }
 @media(max-width:768px) {
     .header2{
+        margin-top: -10px;
         height: 150px;
     }
     
@@ -338,6 +367,69 @@ legend{
         /*border-radius: 0;*/
     }
 }
+#realEstateHead{
+    text-decoration: none;
+    color:white;
+    padding-right: 10px;
+    border-radius: 10%;
+}
+#realEstateHead1{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.585);
+    color: rgba(43, 43, 43, 0.716);
+    padding-right: 10px;
+    border-radius: 10%;
+}
+#aboutBody{
+    align-items: center;
+    text-align: center;
+    margin-top: 30px;
+}
+#aboutBody img{
+    justify-content: center;
+    align-items: center;
+    width: 70%;
+}
+@media(max-width:768px){
+    #realEstateHead1{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.585);
+    color: rgba(43, 43, 43, 0.716);
+    padding-right: 10px;
+    border-radius: 10%;
+    margin-bottom: 15px;
+    }
+}
+.header1{
+    font-size: 45px;
+    font-weight: 400;
+    padding-top: 25px;
+    color: white;
+}
+@media(max-width:768px){ 
+#aboutBody{
+    width: 70%;
+    margin-left: 15%;
+    }
+}
+@media(max-width:768px){
+    #aboutBody img{
+        width: 95%;
+        margin-left: 5%;
+        }
+    }
+
+#lines{
+    border-top: 1px solid black;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+
+
+
+
+
 /* add logo to webpage tab */
 /* netlyfy */
 /* add navigation */
