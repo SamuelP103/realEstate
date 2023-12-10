@@ -27,6 +27,17 @@
     color: rgb(255, 255, 255);
     padding-top: 7px;
 }
+.site-init4{
+    height: 240px;
+    background-image: url("../img/highlight2.jpg");
+    background-size: cover;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    padding-top: 7px;
+}
 .site-init3{
     height: 240px;
     background-image: url("../img/destacada3.jpg");
@@ -44,6 +55,15 @@
 .site-init2 nav a{
     color: rgb(0, 0, 0);
     text-decoration: none;
+}
+.site-init4 nav a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+@media(max-width:768px){
+.site-init4 nav a{
+    color: rgb(0, 0, 0);
+    }
 }
 .site-init3 nav a{
     color: rgb(255, 255, 255);
@@ -201,7 +221,36 @@ margin-bottom: -15px;
     margin-bottom: -40px;
     font-weight: 800;
     color: rgb(0, 0, 0);
-
+}
+@media(min-width:768px){
+#hAndP{
+    margin-top: 100px;
+    margin-left: 13.5%;
+    font-size: 30px;
+    margin-bottom: -40px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    }
+}
+@media(min-width:930px){
+#hAndP{
+    margin-top: 100px;
+    margin-left: 12.5%;
+    font-size: 30px;
+    margin-bottom: -40px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    }
+}
+@media(min-width:1050px){
+#hAndP{
+    margin-top: 100px;
+    margin-left: 12%;
+    font-size: 30px;
+    margin-bottom: -40px;
+    font-weight: 800;
+    color: rgb(0, 0, 0);
+    }
 }
 .cost {
     text-align: left;
@@ -275,6 +324,11 @@ footer p{
 }
 #fakeHeader2{
     font-size: 15px;
+}
+.header2{
+    height: 230px;
+    margin: -12px;
+
 }
 .header2,
 .header2 a{
@@ -380,6 +434,16 @@ legend{
     padding-right: 10px;
     border-radius: 10%;
 }
+#realEstateHead2{
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.469);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-top: 8%;
+    padding-bottom: 8%;
+    font-size: 32px;
+    border-radius: 10%;
+}
 #aboutBody{
     align-items: center;
     text-align: center;
@@ -401,10 +465,17 @@ legend{
     }
 }
 .header1{
-    font-size: 45px;
+    font-size: 35px;
     font-weight: 400;
     padding-top: 25px;
     color: white;
+}
+#header7{
+    font-size: 25px;
+    font-weight: 400;
+    padding-top: 15px;
+    color: whitesmoke;
+    text-align: center;
 }
 @media(max-width:768px){ 
 #aboutBody{
@@ -424,8 +495,64 @@ legend{
     padding-top: 20px;
     padding-bottom: 10px;
 }
+#blogFoot{
+    background-color: black;
+    height: 40px;
+    color: gray;
+    text-align: center;
+    padding-top: 8px;
+}
+#aboutFoot{
+    background-color: black;
+    height: 44px;
+    color: gray;
+    text-align: center;
+    padding-top: 8px;
 
+}
+@media(min-width:768px){
+#aboutFoot{
+    margin-top: 285px;
 
+    }
+}
+.flexWrap{
+    display: flex;
+    margin-right: 10%;
+}
+#Photo5{
+    border-radius: 5%;
+    width: 120% !important;
+    margin-left: 20px;
+
+}
+.flexWrap p{
+    font-size: 23px;
+    margin-left: 100px;
+}
+@media(max-width:768px){
+.flexWrap{
+    flex-direction: column;
+    margin-left: -90px;
+    }
+}
+
+@media(max-width:768px){
+.flexWrap p{
+    padding-top: 25px;
+    }
+}
+@media(max-width:768px){
+.allOfAbout{
+    margin-top: -20px !important;
+    }
+}
+
+@media(min-width:768px){
+#centerAbout{
+    margin-left: 25%;
+}
+}
 
 
 
